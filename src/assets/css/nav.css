@@ -1,0 +1,14 @@
+.nav-logo{
+	width: 50px
+}
+.navbar{
+	height: 60px;
+	background: #000;
+	opacity: .85
+}
+.navbar-header{
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
