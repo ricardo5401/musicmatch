@@ -1,18 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './assets/img/logoMusic.png'
+import { browserHistory } from 'react-router'
 
 class App extends Component {
+  componentDidMount(){
+    var app = document.getElementById('App')
+    if(app !== undefined){ app.style.minHeight = window.innerHeight + "px" }
+    var container = document.getElementById('container')
+    if(container !== undefined){ 
+      container.classList.add('zoomIn')
+      setTimeout( function(){ container.classList.remove('zoomIn') }, 700 ) 
+    }
+  }
+  clicked(e){
+    browserHistory.push('/home')
+  }
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <div className="App" id="App" onClick={this.clicked.bind(this)}>
+        <div className="logo-container animated" id="container">
+          <img src={logo} alt="" className="splash-logo"/>
+          <div className="continue-text parpadea">press to continue</div>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
