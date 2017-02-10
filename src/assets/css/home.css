@@ -5,5 +5,68 @@
 	font-family: 'Open Sans', sans-serif;
 }
 .home-container{
-	background-color: white
+	background: url(../img/bg.jpg) no-repeat center top; background-size: cover;
+}
+.tab-container{
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	text-align: center;
+	padding: 10px
+}
+.tab-container .tab{
+	position: relative;
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.tab a{
+	color: #dad8d8;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	text-decoration: none
+}
+.tab a:hover:after, .tab a.active:after {
+  height: 1px;
+  top: 45px;
+  opacity: 1;
+  background-color: #3d993d;
+}
+.tab a:after {
+  content: "";
+  height: 0;
+  background-color: #fff;
+  position: absolute;
+	margin-top: -20px;
+  opacity: 0;
+}
+.tab a#recomended:after{
+	width: 100px;
+	margin-left: -100px
+}
+
+.tab a#overview:after{
+	width: 65px;
+	margin-left: -65px
+}
+
+.tab a#categories:after{
+	width: 75px;
+	margin-left: -75px
+}
+.full-width{
+	width: 100%
+}
+.col-xs-6{
+	padding-right: 10px!important;
+	padding-left: 10px!important
+}
+#home-container{
+	padding-top: 130px
+}
+.recomended-container, .overview-container{
+	margin-bottom: 10px
+}
+.padding-h10{
+	margin: 0px!important; 
 }
