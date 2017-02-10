@@ -13,7 +13,7 @@ class App extends Component {
     }
   }
   clicked(e){
-    browserHistory.push('/home')
+    browserHistory.push('/login')
   }
   render() {
     return (

@@ -2,5 +2,8 @@
 	width: 100%;
 	font-size: 18px;
 	text-align: center;
-	font-font-size: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+.home-container{
+	background-color: white
 }

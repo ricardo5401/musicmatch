@@ -1,0 +1,91 @@
+@import "./nav.css";
+html, body{
+	background-color: #171616
+}
+
+.nav-text{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: #FAFAFA;
+	font-weight: 600;
+	padding-top: 14px
+}
+.social-button{
+	color: white;
+  width: 100%;
+  font-family: 'Open sans';
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #3b5998;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 2px;
+  border: solid 1px #3b5998;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+  padding-top: 12px!important;
+  padding-bottom: 12px!important;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.form-container{
+	margin-top: 25%
+}
+.form-container .input-group{
+	width: 100%
+}
+.text-divider{
+	width: 100%;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 15px;
+	color: #FAFAFA
+}
+.text-divider a{
+	color: #FAFAFA;
+  font-size: 14px;
+  text-decoration: none
+}
+.dark{
+	background-color: #1f1e1e!important;
+}
+.form-control.dark{
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 45px;
+	border-radius: 0px;
+	color: #FAFAFA;
+	font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+.social-button.green{
+	background-color: #1DB954;
+	border-radius: 0px;
+	border-color: #1DB954
+}
+span.input-group-addon.dark{
+	border: none;
+	color: #FAFAFA;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 50px
+}
+*:focus, input:active{
+	outline: none!important;
+}
+.social-button .fa{
+	padding-right: 15px;
+	font-size: 16px
+}
