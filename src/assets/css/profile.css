@@ -33,3 +33,31 @@
 	font-size: 18px;
 	margin-top: 1.5px;
 }
+.circle-button.xxs{
+	min-width: 35px;
+	min-height: 35px 
+}
+.circle-button.xxs i{
+	font-size: 15px;
+	margin-top: 1.5px;
+	margin-left: 2px
+}
+.list-container{
+	padding-left: 20px;
+	padding-right: 20px
+}
+.music-text{
+	color: #abaaaa;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600
+}
+.author-text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #807d7d;
+}
+.play-divider{
+	margin-top: 10px;
+	margin-bottom: 10px
+}
