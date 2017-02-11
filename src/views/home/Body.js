@@ -30,11 +30,16 @@ class Body extends Component {
       categories: false
     })
   }
+  updateDimensions(){
+    var height = document.getElementById('piloto').width;
+    if(height > 0){ this.setState({ width: height }) }
+  }
   componentDidMount(){
     var app = document.getElementById('App')
     if(app !== undefined){ app.style.minHeight = window.innerHeight + "px" }
-    var height = document.getElementById('piloto').width;
-    if(height > 0){ this.setState({ width: height }) }
+    this.updateDimensions()
+    window.addEventListener("resize", this.updateDimensions.bind(this))
+    window.addEventListener("orientationchange", this.updateDimensions.bind(this))
   }
   scrollToSecondBlock(e){
     e.preventDefault()
