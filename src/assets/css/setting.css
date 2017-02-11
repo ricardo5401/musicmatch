@@ -9,8 +9,53 @@
 	color: #FAFAFA;
 	width: 40px;
 	margin-left: -10px;
-  margin-top: 2.5px;
+  margin-top: 6.5px;
 }
 .empty-button i{
-	font-size: 38px!important
+	font-size: 30px!important
+}
+.left-divider.pp{
+	padding-left: 20px;
+	padding-bottom: 0px
+}
+.custom-hr{
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+.setting-content{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+.content-text{
+	font-family: 'Open Sans', sans-serif;
+	color: #e0e0e0;
+	font-weight: 600;
+	font-size: 17px;
+	max-width: 60%z
+}
+.content-text.subtitle{
+	font-weight: 300;
+	font-size: 16px;
+}
+.switch-container{
+	float: right;
+	margin-top: 3px
+}
+.switch-text .subtitle{
+	height: 45px;
+	padding-top: 10px
+}
+.custom-text-box{
+	width: 87px;
+	margin-top: 5px;
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #c8c8c8;
+  border-radius: 4px;
+  height: 30px;
 }
