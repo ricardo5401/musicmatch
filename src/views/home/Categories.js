@@ -9,6 +9,7 @@ import Indie from '../../assets/img/indie.png'
 import Rock from '../../assets/img/rock.png'
 import Party from '../../assets/img/party.png'
 import Latin from '../../assets/img/latin.png'
+import { Link } from 'react-router'
 
 class Around extends Component {
   render() {
@@ -19,46 +20,66 @@ class Around extends Component {
       <div>
         <div className="row padding-h10"> 
           <div className="col-md-6 col-xs-6">
-            <img src={Trending} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Trending} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div>
           <div className="col-md-6 col-xs-6">
-            <img src={Hiphop} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Hiphop} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div>  
         </div>
         <br />
         <div className="row padding-h10">
           <div className="col-md-6 col-xs-6">
-            <img src={Classic} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Classic} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div>
           <div className="col-md-6 col-xs-6">
-            <img src={Dance} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Dance} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div> 
         </div>
         <br />
         <div className="row padding-h10">
           <div className="col-md-6 col-xs-6">
-            <img src={Romantic} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Romantic} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div>
           <div className="col-md-6 col-xs-6">
-            <img src={Pop} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Pop} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div> 
         </div>
         <br />
         <div className="row padding-h10">
           <div className="col-md-6 col-xs-6">
-            <img src={Indie} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Indie} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div>
           <div className="col-md-6 col-xs-6">
-            <img src={Rock} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Rock} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div> 
         </div>
         <br />
         <div className="row padding-h10">
           <div className="col-md-6 col-xs-6">
-            <img src={Party} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Party} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div>
           <div className="col-md-6 col-xs-6">
-            <img src={Latin} alt="" className="full-width card-img" style={style}/>
+            <Link to={{ pathname: "/profile", query: { ramdom:"true" } }}>
+              <img src={Latin} alt="" className="full-width card-img" style={style}/>
+            </Link>
           </div> 
         </div>
         <br />

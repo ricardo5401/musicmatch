@@ -1,0 +1,35 @@
+.user-info{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #abaaaa;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+.circle-button {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: solid 2px #FAFAFA;
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  color: #FAFAFA !important;
+  letter-spacing: 0.5px;
+  font-weight: 400 !important;
+  min-width: 50px;
+  min-height: 50px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+.circle-button i{
+	font-size: 22px
+}
+.circle-button.xs{
+	min-width: 40px;
+	min-height: 40px 
+}
+.circle-button.xs i{
+	font-size: 18px;
+	margin-top: 0.5px;
+}
