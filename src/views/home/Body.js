@@ -51,6 +51,10 @@ class Body extends Component {
       smooth: true,
       offset: -50
     })
+    setTimeout(function() {
+      var overview = document.getElementById('overview')
+      if(overview !== undefined){ overview.click() }
+    }, 100)
   }
   render() {
     var Element = Scroll.Element;
