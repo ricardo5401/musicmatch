@@ -17,7 +17,7 @@ class Tabs extends Component {
         </div>
         <div className="tab">
           <a href="#" id="categories" className={this.addClass(this.props.categories)}
-          onClick={this.props.setLink.bind(this)}>Categorias</a>
+          onClick={this.props.scrollToSecondBlock.bind(this)}>Categorias</a>
         </div>        
       </div>
     );

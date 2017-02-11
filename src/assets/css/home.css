@@ -43,12 +43,19 @@
 	width: 100px;
 	margin-left: -100px
 }
-
+.left-divider{
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 15px
+}
 .tab a#overview:after{
 	width: 65px;
 	margin-left: -65px
 }
-
+.home-second-block{
+	width: 100%;
+	height: 20px;
+}
 .tab a#categories:after{
 	width: 75px;
 	margin-left: -75px

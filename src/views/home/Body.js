@@ -3,6 +3,9 @@ import Nav from '../shared/Nav'
 import Tabs from './Tabs'
 import OverView from './OverView'
 import Recomended from './Recomended'
+import Around from './Around'
+import Categories from './Categories'
+import Scroll from 'react-scroll'
 import '../../assets/css/home.css'
 
 class Body extends Component {
@@ -12,7 +15,8 @@ class Body extends Component {
     this.state = {
       overview: true,
       recomended: false,
-      categories: false
+      categories: false,
+      width: 172
     }
   }
   setLink(e){
@@ -29,17 +33,39 @@ class Body extends Component {
   componentDidMount(){
     var app = document.getElementById('App')
     if(app !== undefined){ app.style.minHeight = window.innerHeight + "px" }
+    var height = document.getElementById('piloto').width;
+    if(height > 0){ this.setState({ width: height }) }
+  }
+  scrollToSecondBlock(e){
+    e.preventDefault()
+    e.target.blur()
+    var scroller = Scroll.scroller
+    scroller.scrollTo('second-block', {
+      duration: 800,
+      delay: 100,
+      smooth: true,
+      offset: -50
+    })
   }
   render() {
+    var Element = Scroll.Element;
     return (
       <div className="home-container" id="App">
         <Nav />
         <Tabs overview={this.state.overview} recomended={this.state.recomended}
-          categories={this.state.categories} setLink={this.setLink.bind(this)}/>
+          categories={this.state.categories} setLink={this.setLink.bind(this)}
+          scrollToSecondBlock={this.scrollToSecondBlock.bind(this)}/>
         <div className="container-fluid" id="home-container">
-          { this.state.overview ? <OverView /> : <Recomended /> }
+          { 
+            this.state.overview ? <OverView width={this.state.width} /> : 
+            <Recomended width={this.state.width} /> 
+          }
           <br />
-          <Recomended />
+          <div className="text-divider left-divider">Escuchando cerca de tí</div>
+          <Around width={this.state.width}/>
+          <Element name="second-block" id="second-block" className="home-second-block" />
+          <div className="text-divider left-divider">Categorias</div>
+          <Categories width={this.state.width}/>
         </div>
       </div>
     );

@@ -57,6 +57,9 @@ html, body{
   font-size: 14px;
   text-decoration: none
 }
+.left-text{
+	text-align: left;
+}
 .dark{
 	background-color: #1f1e1e!important;
 }
