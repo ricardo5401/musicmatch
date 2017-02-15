@@ -4,8 +4,18 @@
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
-.home-container{
-	background: url(../img/bg.jpg) no-repeat center top; background-size: cover;
+.purple-container{
+  background: #302A3B; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #2A1F3F, #4E486A, #915A9C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #2A1F3F, #4E486A, #915A9C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #2A1F3F, #4E486A, #915A9C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #2A1F3F, #4E486A, #915A9C);
+}
+.navbar.purple{
+	background-color: #362D40;
+}
+.card-img{
+	border-radius: 50%;
 }
 .tab-container{
 	position: absolute;
