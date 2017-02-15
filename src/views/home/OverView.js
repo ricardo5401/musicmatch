@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import viral from '../../assets/img/viral_global.png'
-import top from '../../assets/img/top.png'
+import viral from '../../assets/img/categories/viral_global.png'
+import top from '../../assets/img/categories/Others.jpeg'
 import { Link } from 'react-router'
 
 class OverView extends Component {

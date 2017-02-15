@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Rock from '../../assets/img/rock.png'
-import Party from '../../assets/img/party.png'
+import Rock from '../../assets/img/categories/Rock.jpeg'
+import Party from '../../assets/img/categories/party.png'
 import { Link } from 'react-router'
 
 class Around extends Component {

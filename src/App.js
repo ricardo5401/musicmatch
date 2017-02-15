@@ -17,7 +17,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App" id="App" onClick={this.clicked.bind(this)}>
+      <div className="App purple-container" id="App" onClick={this.clicked.bind(this)}>
         <div className="logo-container animated" id="container">
           <img src={logo} alt="" className="splash-logo"/>
           <div className="continue-text parpadea">press to continue</div>
