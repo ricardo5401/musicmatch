@@ -42,8 +42,8 @@ class Body extends Component {
     var playList = getList(this.state.playList);
     var mappedList = playList.map((play, i) => <PlayList key={i} play={play}/>)
     return (
-      <div className="profile-container" id="App">
-        <Nav navText={'Perfil'}/>
+      <div className="profile-container purple-container" id="App">
+        <Nav navText={'Perfil'} purple={true}/>
         <div className="dummy-div"></div>
         <div className={"custom-animate animated " + this.state.className}>       
           <div className="full-width">

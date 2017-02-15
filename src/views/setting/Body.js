@@ -25,8 +25,9 @@ class Body extends Component {
     );
 
     return (
-      <div className="home-container" id="App">
-        <Nav showUser={false} navText={'Ajustes'} className={'setting-text'} navLink={button} />
+      <div className="home-container purple-container" id="App">
+        <Nav showUser={false} navText={'Ajustes'} className={'setting-text'} 
+          navLink={button} purple={true}/>
         <div className="dummy-div"></div>
         <div className="text-divider left-divider pp">
           Ajustes de descubrimiento
