@@ -8,13 +8,16 @@ class Body extends Component {
   onClick(e){
     browserHistory.push('/onboarding')
   }
+  onClickSplash(e){
+    browserHistory.push('/splash')
+  }
   render() {
     return (
       <div className="App">
         <Nav navLink={''} showUser={false} navText={'Login'} />
         <center>
           <div className="form-container">
-            <button type="button" className="social-button" onClick={this.onClick.bind(this)}>
+            <button type="button" className="social-button" onClick={this.onClickSplash.bind(this)}>
               <i className="fa fa-facebook"></i>Ingresa con facebook
             </button>
             <div className="text-divider" >or</div>
