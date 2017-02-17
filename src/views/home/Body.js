@@ -59,7 +59,7 @@ class Body extends Component {
   render() {
     var Element = Scroll.Element;
     return (
-      <div className="home-container purple-container" id="App">
+      <div className="home-container" id="App">
         <Nav purple={true}/>
         <Tabs overview={this.state.overview} recomended={this.state.recomended}
           categories={this.state.categories} setLink={this.setLink.bind(this)}

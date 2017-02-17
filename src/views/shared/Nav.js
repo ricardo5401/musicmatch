@@ -21,10 +21,9 @@ class Nav extends Component {
 		const showUser = this.props.showUser !== undefined ? this.props.showUser : true
 		const navText = this.props.navText || 'Explora'
 		const navClass = this.props.className || ''
-		const purple = this.props.purple ? ' purple' : ''
 
 		return(
-			<nav className={"navbar navbar-fixed-top" + purple}>
+			<nav className={"navbar navbar-fixed-top purple"}>
 				<div className="container-fluid center-text">
 					<div className="navbar-header pull-left">
 					{ this.props.navLink !== undefined ? this.props.navLink : navLink }

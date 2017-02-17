@@ -1,6 +1,10 @@
 @import "./nav.css";
 html, body{
-	background-color: #171616
+  background: #302A3B; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #2A1F3F, #4E486A, #915A9C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #2A1F3F, #4E486A, #915A9C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #2A1F3F, #4E486A, #915A9C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #2A1F3F, #4E486A, #915A9C);
 }
 
 .nav-text{
@@ -9,6 +13,35 @@ html, body{
 	color: #FAFAFA;
 	font-weight: 600;
 	padding-top: 14px
+}
+.unborder-text{
+	width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  border-radius: 0;
+  font-size: 18px;
+  height: 40px;
+  overflow: hidden;
+  padding: 7px;
+  white-space: nowrap;
+  font-family: "Open Sans","Helvetica Neue",sans-serif;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-style: normal;
+  background-color: transparent;
+}
+.white{
+	color: #FAFAFA;
+}
+.transparent{
+	background-color: transparent;
+}
+.input-group-addon.transparent{
+	border: 0px;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+	padding-left: 20px;
+	padding-right: 20px
 }
 .social-button{
 	color: white;

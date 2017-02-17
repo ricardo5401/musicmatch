@@ -1,0 +1,36 @@
+.onboarding-text{
+	font-size: 18px;
+}
+.onboarding-title, .onboarding-text{
+	color: #FAFAFA;
+	padding: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+.onboarding-title{
+	font-size: 20px;
+	font-weight: 300
+}
+.border-button{
+	border-color: #FAFAFA !important;
+  color: #FAFAFA !important;
+  border: 2px solid #FAFAFA!important;
+  background-color: transparent!important;
+  border-radius: 27px 27px 27px 27px !important;
+}
+.no-padding-right{
+	padding-right: 0px!important
+}
+.no-padding-right .first{
+	padding-bottom: 7.5px;
+}
+.no-padding-right .second{
+	padding-top: 7.5px;
+}
+img:hover, img.active {
+	opacity: 0.8;
+	-webkit-transition: opacity 0.15s;
+	-moz-transition: opacity 0.15s;
+	-ms-transition: opacity 0.15s;
+	-o-transition: opacity 0.15s;
+	-webkit-transition: opacity 0.15s;
+}
