@@ -20,13 +20,19 @@
 .no-padding-right{
 	padding-right: 0px!important
 }
-.no-padding-right .first{
+.no-padding-left{
+	padding-left: 0px!important
+}
+.no-padding-right .first, .no-padding-left .first{
 	padding-bottom: 7.5px;
 }
-.no-padding-right .second{
+.no-padding-right .second, .no-padding-left .second{
 	padding-top: 7.5px;
 }
-img:hover, img.active {
+.padding-top{
+	padding-top: 15px
+}
+img.active {
 	opacity: 0.8;
 	-webkit-transition: opacity 0.15s;
 	-moz-transition: opacity 0.15s;
