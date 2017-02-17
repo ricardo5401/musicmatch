@@ -3,6 +3,7 @@ import { Route, IndexRoute } from 'react-router'
 
 import App from '../App'
 import Splash from '../views/login/Splash'
+import LoginForm from '../views/login/Form'
 import Login from '../views/login/Body'
 import Home from '../views/home/Body'
 import Setting from '../views/setting/Body'
@@ -15,6 +16,7 @@ export default (
 	  <IndexRoute component={App} />
 	  <Route path={"login"} component={Login} />
 	  <Route path={"splash"} component={Splash} />
+	  <Route path={"auth"} component={LoginForm} />
 	  <Route path={"home"} component={Home} />
 	  <Route path={"settings"} component={Setting} />
 	  <Route path={"profile"} component={Profile} />

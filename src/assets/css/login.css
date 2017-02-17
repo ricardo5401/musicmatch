@@ -100,8 +100,9 @@ html, body{
   margin-top: -2px;
   margin-left: -23px
 }
-.social-btn.spotify img{
-	width: 30px;
+.social-btn.music{
+	background-color: #362D40!important;
+	color: white!important
 }
 .social-btn.spotify{
 	color: white!important;
