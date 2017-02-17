@@ -1,5 +1,6 @@
 .onboarding-text{
-	font-size: 18px;
+	font-size: 20px;
+	padding-bottom: 0px!important
 }
 .onboarding-title, .onboarding-text{
 	color: #FAFAFA;
@@ -7,7 +8,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 .onboarding-title{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 300
 }
 .border-button{
@@ -33,7 +34,7 @@
 	padding-top: 15px
 }
 img.active {
-	opacity: 0.8;
+	opacity: 0.7;
 	-webkit-transition: opacity 0.15s;
 	-moz-transition: opacity 0.15s;
 	-ms-transition: opacity 0.15s;
