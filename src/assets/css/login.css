@@ -72,7 +72,19 @@ html, body{
   padding-bottom: 10px;
 }
 .form-container{
-	margin-top: 25%
+	margin-top: 25%;
+}
+.percent-80{
+	max-width: 80%;
+	margin-top: 0px;
+}
+.login-logo{
+	max-width: 180px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.social-button.login{
+	background-color: rgba(27, 159, 180, 0.6) !important;
 }
 .form-container .input-group{
 	width: 100%

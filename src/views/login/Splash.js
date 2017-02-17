@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from '../../assets/img/logoMusic.png'
 import Header from './Header'
 import Nav from '../shared/Nav'
 import '../../assets/css/login.css'
@@ -11,13 +12,9 @@ class Body extends Component {
   render() {
     return (
       <div className="App">
-        <Nav navLink={''} showUser={false} navText={'Login'} />
         <center>
-          <div className="form-container">
-            <button type="button" className="social-button" onClick={this.onClick.bind(this)}>
-              <i className="fa fa-facebook"></i>Ingresa con facebook
-            </button>
-            <div className="text-divider" >or</div>
+          <div><img src={logo} alt="" className="login-logo"/></div>
+          <div className="form-container percent-80">
             <div className="input-group">
               <span className="input-group-addon transparent">
                   <i className="fa fa-user white"></i>
